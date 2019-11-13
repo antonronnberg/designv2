@@ -1,25 +1,23 @@
 ---
-title: "Min fina titel"
+title: "Index"
 ---
 Min me-sida i kursen design
-=========================
+=
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild Organya"]
 
 Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Mitt namn är Anton Rönnberg. Levt 25 år på en ö i Mälaren som heter Adelsö, innan jag insåg att världen var större.
+Efter att hela tiden ha behövt anpassa tider efter en färja och boende på en "one-way" punkt. Levde jag ett liv med
+studier, jobb, träning (primärt fotboll, sekundärt löpning, cykling, kajakpaddling). Det var arbetet i Stockholm och dess enda köande ut till ön med att anpassa tider till fotbollsträningar, som gjorde att jag tappade suget inom fotbollen när min utveckling inom sporten stannade upp lite. Det fick mig att vidga vyerna och blicka efter något eget och nytt.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Flyttade till Dalarna och inledde ett nytt kapitel i livet. I liv bestående av allt och lite till, fann ett hus och
+obegränsat med vild natur. Efter ett års paus från fotbollen pga flytt, jobb, körtelfeber... hittade jag tillbaka till skorna och valde att denna gång bara kör på efter hur väl det fungerade med livet vid sidan om; inget mer Mr. 100% närvaro.
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+Då jag av egen natur älskar tävling och utmaning, har jag på nytt tagit mig an en utbildning inom IT. Denna utbildning inom webbprogrammering är dels för att spendera den lilla dötid jag haft vid sidan om allt, ge mig själv en utmaning. Sen har jag insett att mitt nya motto av att lära sig något nytt varje dag kommer väl till pass.
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+Välkommen till sida om mig, skapad av mig, baserat på undervisningsmaterial från kursen design och dess riktlinjer.
+Här kommer du få se design *utan dess like*!
