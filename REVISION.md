@@ -1,6 +1,10 @@
 Min me/redovisa
 ===
 
+v1.0.2 (2019-11-15)
+---
+* Updated kmom01 css style and wrote the report text + a few corrections in other files.
+
 v1.0.1 (2019-11-14)
 ---
 * Added flash, byline, markdown-test page+ changed default css style

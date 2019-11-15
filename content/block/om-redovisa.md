@@ -1,3 +1,3 @@
 #### Redovisa på GitHub
 
-Skriv något kort om ditt redovisa-repo och länka till [repot för me/redovisa på GitHub](https://github.com/antonronnberg/designv2).
+Via länken går det att ta en titt denna webbsidans [repo för me/redovisa på GitHub](https://github.com/antonronnberg/designv2).
