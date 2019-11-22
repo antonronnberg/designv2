@@ -1,0 +1,152 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+
+ // /* Hide submenu, leave this to kmom02 */
+ // .rm-desktop ul {
+ //     display: none;
+ // }
+ //
+ // /* Hide responsive/mobile menu, leave this to kmom02 */
+ // .rm-navbar-max {
+ //     display: none;
+ // }
+
+
+.wrap-all {
+    background-color: #eff2eb;
+}
+
+.outer-wrap {
+    // width: 100%;
+    /* overflow: auto; */
+}
+
+.inner-wrap {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+// .inner-wrap {
+//     max-width: 1100px;
+//     margin: 0 auto;
+// }
+
+.row::after {
+    clear: both;
+}
+
+.block {
+    overflow: auto;
+}
+
+
+/* Header */
+.region-header-col-1 {
+    float: left;
+    width: 30%;
+    margin-right: 10px;
+}
+
+.region-header-col-2 {
+    float: left;
+    width: 60%;
+}
+
+.site-logo {
+    display: none; /* temp hidden */
+}
+
+// .my-navbar {
+//     padding-top: 10px;
+//     list-style: none;
+// }
+//
+// .my-navbar li {
+//     display: inline;
+//     padding: 2px 10px;
+// }
+
+.region-flash {
+    margin: 0 auto;
+}
+
+.region-flash img {
+    max-width: 100%;
+}
+
+/* Main */
+.outer-wrap-main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+// .inner-wrap-main {
+//     padding: 30px 0;
+// }
+
+.author-byline {
+    border: 2px solid #ccc;
+    padding: 10px;
+    // width: 80%;
+}
+
+.author-byline::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.right {
+    float: right;
+    margin-left: 10px;
+}
+
+.left {
+    float: left; /* Use if figure is not floated, need for byline. */
+    margin-right: 10px;
+}
+
+
+
+/* Footer */
+.outer-wrap-footer {
+    background-color: #ab8735;
+    color: #fff;
+}
+
+.inner-wrap-footer {
+    /* margin-left: 10px; */
+    padding: 30px 0;
+}
+
+.region-footer > .block {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.region-footer p {
+    margin: 10px 0;
+}
+
+/* Page specific change */
+.route-,
+.route-test {
+    .region-main {
+        width: 100%;
+    }
+}
+
+.route-style {
+
+}

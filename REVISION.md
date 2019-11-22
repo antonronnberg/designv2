@@ -1,6 +1,10 @@
 Min me/redovisa
 ===
 
+v2.0.0 (2019-11-22)
+---
+* Included style and requirements for kmom02, now the styling is done with LESS.
+
 v1.0.2 (2019-11-15)
 ---
 * Updated kmom01 css style and wrote the report text + a few corrections in other files.

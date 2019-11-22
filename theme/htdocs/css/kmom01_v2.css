@@ -1,0 +1,343 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+/* Simple CSS normalize */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Base */
+html {
+  overflow-y: scroll;
+}
+body {
+  max-width: 100%;
+  overflow: auto;
+}
+p {
+  margin: 24px 0;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+figcaption {
+  display: table-caption;
+  caption-side: bottom;
+}
+figcaption p {
+  margin: 5px 0;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+  display: none;
+}
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+  display: none;
+}
+/* Content */
+.wrap-all {
+  background-color: #eff2eb;
+}
+.outer-wrap {
+  width: 100%;
+  overflow: auto;
+}
+.inner-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.row::after {
+  clear: both;
+}
+.block {
+  overflow: auto;
+}
+/* Header */
+.region-header-col-1 {
+  float: left;
+  width: 30%;
+  margin-right: 10px;
+}
+.region-header-col-2 {
+  float: left;
+  width: 60%;
+}
+.site-logo {
+  display: none;
+  /* temp hidden */
+}
+.my-navbar {
+  padding-top: 10px;
+  list-style: none;
+}
+.my-navbar li {
+  display: inline;
+  padding: 2px 10px;
+}
+.region-flash {
+  margin: 0 auto;
+}
+.region-flash img {
+  max-width: 100%;
+}
+/* Main */
+.outer-wrap-main {
+  width: 90%;
+  margin: 0 auto;
+}
+.inner-wrap-main {
+  padding: 30px 0;
+}
+.author-byline {
+  border: 2px solid #ccc;
+  padding: 10px;
+  width: 80%;
+}
+.author-byline::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.right {
+  float: right;
+  margin-left: 10px;
+}
+.left {
+  float: left;
+  /* Use if figure is not floated, need for byline. */
+  margin-right: 10px;
+}
+/* Footer */
+.outer-wrap-footer {
+  background-color: #ab8735;
+  color: #fff;
+}
+.inner-wrap-footer {
+  /* margin-left: 10px; */
+  padding: 30px 0;
+}
+.region-footer > .block {
+  padding-top: 30px;
+  text-align: center;
+}
+.region-footer p {
+  margin: 10px 0;
+}
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  overflow-y: scroll;
+  background-color: #424242;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fff;
+  font: 100.01%/1 serif;
+}
+p {
+  margin: 24px 0;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+figcaption {
+  display: table-caption;
+  caption-side: bottom;
+}
+figcaption p {
+  margin: 5px 0;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+.wrap-all {
+  background-color: #eff2eb;
+}
+.outer-wrap {
+  /* overflow: auto; */
+}
+.inner-wrap {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.row::after {
+  clear: both;
+}
+.block {
+  overflow: auto;
+}
+/* Header */
+.region-header-col-1 {
+  float: left;
+  width: 30%;
+  margin-right: 10px;
+}
+.region-header-col-2 {
+  float: left;
+  width: 60%;
+}
+.site-logo {
+  display: none;
+  /* temp hidden */
+}
+.region-flash {
+  margin: 0 auto;
+}
+.region-flash img {
+  max-width: 100%;
+}
+/* Main */
+.outer-wrap-main {
+  width: 90%;
+  margin: 0 auto;
+}
+.author-byline {
+  border: 2px solid #ccc;
+  padding: 10px;
+}
+.author-byline::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.right {
+  float: right;
+  margin-left: 10px;
+}
+.left {
+  float: left;
+  /* Use if figure is not floated, need for byline. */
+  margin-right: 10px;
+}
+/* Footer */
+.outer-wrap-footer {
+  background-color: #ab8735;
+  color: #fff;
+}
+.inner-wrap-footer {
+  /* margin-left: 10px; */
+  padding: 30px 0;
+}
+.region-footer > .block {
+  padding-top: 30px;
+  text-align: center;
+}
+.region-footer p {
+  margin: 10px 0;
+}
+/* Page specific change */
+.route- .region-main,
+.route-test .region-main {
+  width: 100%;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+}
+/**
+ * Navbar responsive
+ */
+@media screen and (max-width: 1010px) {
+  .rm-desktop a {
+    padding: 1em 10px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .rm-desktop a {
+    padding: 1em 5px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .rm-desktop {
+    display: none;
+  }
+}
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
+}
+/**
+ * My own settings, not currently in their own module.
+ */
