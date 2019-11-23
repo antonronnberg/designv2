@@ -31,3 +31,54 @@
         display: none;
     }
 }
+
+
+
+/**
+ * Main responsive
+ */
+@media screen and (max-width: 650px) {
+    .inner-wrap {
+        &.inner-wrap-main {
+            max-width: 90%;
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .region-main,
+    .region-sidebar-left,
+    .region-sidebar-right {
+        max-width: 90%;
+        width: unset;
+        float: none;
+    }
+}
+
+
+
+/**
+ * Footer responsive
+ */
+@media screen and (max-width: 440px) {
+    .footer-column-1,
+    .footer-column-2,
+    .footer-column-3 {
+        max-width: 100%;
+    }
+
+    .footer-column-1 {
+        float: none;
+        margin-right: unset;
+    }
+
+    .footer-column-2 {
+        float: none;
+    }
+
+    .footer-column-3 {
+        float: none;
+        margin-left: unset;
+    }
+
+}

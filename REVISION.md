@@ -1,6 +1,10 @@
 Min me/redovisa
 ===
 
+v2.0.1 (2019-11-23)
+---
+* Updated responsive handling + fixed footer-column-X.
+
 v2.0.0 (2019-11-22)
 ---
 * Included style and requirements for kmom02, now the styling is done with LESS.
