@@ -1,6 +1,10 @@
 Min me/redovisa
 ===
 
+v4.0.0 (2019-12-09)
+---
+* Included style and requirements for kmom04, LESS variables control typography and colors.
+
 v3.0.0 (2019-11-29)
 ---
 * Included style and requirements for kmom03, styling done with LESS and using grid-system.
