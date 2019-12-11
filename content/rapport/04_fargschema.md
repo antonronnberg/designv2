@@ -6,41 +6,39 @@ Introduktion
 -----------------------
 
 <!-- Skriv en eller två rader om vad uppgiften handlar om. -->
-Anpassning av webbplats genom färgval och typografi är en viktig punkt  
-för att locka besökare. Om färgvalen appliceras helt vilt utan tanke,  
-brukar det resultera i en ansträngande sida att läsa/tolk för användaren.  
-Ansträngning kan också minskas genom att följa beprövade riktlinjer inom  
-typografi (Pamental 2014).
+Anpassning av webbplats genom färgval och typografi är en viktig punkt för att
+locka besökare. Om färgvalen appliceras helt vilt utan tanke, brukar det
+resultera i en ansträngande sida att läsa/tolk för användaren. Ansträngning
+kan också minskas genom att följa beprövade riktlinjer inom typografi
+(Pamental 2014).
 
-I denna rapport kommer det ske en granskning av färgscheman och typografi.  
-Undersökning utförs på tre kommuners webbsidor: Tyresö, Enköping och  
-Karlstad.
+I denna rapport kommer det ske en granskning av färgscheman och typografi.
+Undersökning utförs på tre kommuners webbsidor: Tyresö, Enköping och Karlstad.
 
 
 Urval
 -----------------------
 
 <!-- Berätta vilka webbplatser du valt att undersöka och varför eller hur du gick tillväga när du gjorde ditt urval. -->
-De tre webbplatser som blivit utvalda har blivit framtagna från IDG.se (2019)  
-&#45; "fem bästa kommunerna på nätet 2019". Kommunerna som granskas är  
+De tre webbplatser som blivit utvalda har blivit framtagna från IDG.se (2019)
+&#45; "fem bästa kommunerna på nätet 2019". Kommunerna som granskas är
 Tyresö, Enköping och Karlstad.  
 
-Anledningen till valet av granskningområde gjordes då webbplatser hos  
-kommuner brukar ha en tendens att inte följa med i webbutvecklingen.  
-Relateras till de två kommuner som forskaren bott i under sitt liv, samt
-med stöd från IDG.se (2019).  
+Anledningen till valet av granskningområde gjordes då webbplatser hos kommuner
+brukar ha en tendens att inte följa med i webbutvecklingen. Relateras till de
+två kommuner som forskaren bott i under sitt liv, samt med stöd från
+IDG.se (2019).
 
-Begränsning har gjorts till att granska en nyhetsartikel hos respektive  
-webbplats. Då fokus ligger på att granska färgschema och typografi känns  
-det som ett naturligt val.
+Begränsning har gjorts till att granska en nyhetsartikel hos respektive
+webbplats. Då fokus ligger på att granska färgschema och typografi känns det
+som ett naturligt val.
 
 
 Metod
 -----------------------
 
 <!-- Berätta kort om din "metod", hur du gör för att utföra undersökningen. Berätta om du använder något speciellt verktyg. -->
-Undersökningen använder sig av diverse verktyg för att kunna bedöma  
-webbsidorna.
+Undersökningen använder sig av diverse verktyg för att kunna bedöma webbsidorna.
 
 * För att granska om färgerna följer ett färgschema, används en  
 kombination av verktygen:  
@@ -77,15 +75,15 @@ Webbsidan som användes från Tyresö kommun (2019) illustrerars i bilden.
 <td style="height: 50px; width: 50px; background-color: #E11F14"> -->
 </tr>
 </table>
-Frånsett färg på sin kommun-sköld använder sig Tyresö av tre blå nyanser,  
-samt vit bakgrund och svart text. Där bakgrundsfärgen är blå är texten vit.
+Frånsett färg på sin kommun-sköld använder sig Tyresö av tre blå nyanser, samt
+vit bakgrund och svart text. Där bakgrundsfärgen är blå - är texten vit.
 
-Tyresö använder ett egenskapat färgschema som är i närliggande färgharmoni  
-av analog. Accent-färgen som används är #6ECDE9, den återfinns som
-underlinje för länkar eller för att färglägga logotyper hos social media.
+Tyresö använder ett egenskapat färgschema som är i närliggande färgharmoni av
+analog. Accent-färgen som används är #6ECDE9, den återfinns som underlinje för
+länkar eller för att färglägga logotyper hos social media.
 
-Typsnittet på brödtexten är i en sans-serif stil med en lätt fontvikt.
-H1, H2 har samma typsnitt som brödtexten men med tyngre fontvikt.
+Typsnittet på brödtexten är i en sans-serif stil med en lätt fontvikt. H1, H2
+har samma typsnitt som brödtexten men med tyngre fontvikt.
 
 Tecken radlängd ligger någonstans mellan 35 &#45; 85 tecken, där det lägre
 uppfylls på mobil (iPhone 6) resolution och det högre nås på tablet (iPad)
@@ -108,9 +106,8 @@ Webbsidan som användes från Enköpings kommun (2019) illustrerars i bilden.
 </tr>
 </table>
 Frånsett färg på sin kommun-sköld använder sig Enköping av två blå nyanser
-och en gul färg,  
-samt vit bakgrund och svart text. Där bakgrundsfärgen är blå är texten vit
-och där bakgrundsfärgen är gul är texten svart.
+och en gul färg, samt vit bakgrund och svart text. Där bakgrundsfärgen är blå -
+är texten vit och där bakgrundsfärgen är gul - är texten svart.
 
 Enköping använder ett sammansatt färgschema, då färgerna inte ligger i linje
 med varandra för att uppfylla ett komplementärt färgschema. Accent-färgen
@@ -148,13 +145,13 @@ Webbsidan som användes från Karlstads kommun (2019) illustrerars i bilden.
 <td style="height: 50px; width: 50px; background-color: #ED6C07"> -->
 </tr>
 </table>
-Karlstad använder sig av olika nyanser av orange samt närliggande färger
-i form av gul och röd. Bakgrund är vit med svart text. Där bakgrundsfärgen
-är orange-röd gradientfärgad har texten vit färg och länkarna i footer-delen
+Karlstad använder sig av olika nyanser av orange samt närliggande färger i form
+av gul och röd. Bakgrund är vit med svart text. Där bakgrundsfärgen är
+orange-röd gradientfärgad har texten vit färg och länkarna i footer-delen
 är orange.
 
-Karlstad använder sig av ett analogt färgschema, då färgerna ligger
-i närhet av varandra på färghjulet. Accent-färgen som används är en gradientfärg
+Karlstad använder sig av ett analogt färgschema, då färgerna ligger i närhet av
+varandra på färghjulet. Accent-färgen som används är en gradientfärg
 mellan #FED13E och #FEC126, den återfinns vid knappen "Kontakt".
 
 Typsnittet på brödtexten är i en sans-serif stil med en normal fontvikt.

@@ -6,15 +6,50 @@
 
 @fontFamilyHeadings: "Amaranth", sans-serif; //"sans-serif";
 
+@colorHeader: #fff;
 @colorBody: #fff;
 @colorFooter: #fff;
-@bgColorBody: #0f0;
+
 @bgColorHtml: #f0f;
-@accentBgColor: #ff0;
+@bgColorHeader: darken(@bgColorHtml, 10%);
+@bgColorBody: #0f0;
+
+@accentBgColor: #cc8b14;
 @accentFontColor: #fff;
-@bylineBorderColor: #ff0;
+
+@bgColorByline: @accentBgColor;
+@borderColorByline: darken(@accentBgColor, 10%);
+
 @bgColorCodeInline: #333;
+@submenuItemBorderColor: @accentBgColor;
 
 h1, h2, h3, h4 {
     font-family: @fontFamilyHeadings;
+}
+
+.outer-wrap-main {
+    h1, h2, h3, h4 {
+        border-bottom: 1px solid @accentBgColor;
+    }
+}
+
+.flashmessage.info {
+	background-color: @accentBgColor;
+	border: 2px solid #333;
+}
+
+.stylechooser {
+    select {
+        background-color: @accentBgColor;
+    }
+}
+
+.rm-mobile.rm-clicked {
+    background-color: lighten(@accentBgColor, 5%);
+
+    li {
+        &:hover {
+            background-color: #555;
+        }
+    }
 }

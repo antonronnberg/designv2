@@ -1,6 +1,10 @@
 Min me/redovisa
 ===
 
+v4.0.1 (2019-12-11)
+---
+* Updated responsivness for typography in rapport and redovisa, add some more accentColor to colorful theme.
+
 v4.0.0 (2019-12-09)
 ---
 * Included style and requirements for kmom04, LESS variables control typography and colors.

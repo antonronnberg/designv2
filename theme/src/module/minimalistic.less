@@ -6,13 +6,20 @@
 
 @fontFamilyBody:     "Kanit", sans-serif; //"sans-serif";
 
+@colorHeader: #fff;
 @colorBody: #333;
 @colorFooter: #fff;
-@bgColorBody: #fff;
+
 @bgColorHtml: #ff9000;
-@accentBgColor: #ccc;
+@bgColorHeader: darken(@bgColorHtml, 10%);
+@bgColorBody: #fff;
+
+@accentBgColor: #888;
 @accentFontColor: #333;
-@bylineBorderColor: #888;
+
+@bgColorByline: darken(@bgColorBody, 5%);
+@borderColorByline: darken(@accentBgColor, 10%);
+
 @bgColorCodeInline: #eee;
 
 h1, h2, h3, h4 {

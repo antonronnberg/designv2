@@ -6,13 +6,20 @@
 
 @fontFamilyBody:     "Yantramanav", sans-serif; //"sans-serif";
 
+@colorHeader: #fff;
 @colorBody: #fff;
 @colorFooter: #fff;
+
+@bgColorHtml: #555;
+@bgColorHeader: darken(@bgColorHtml, 10%);
 @bgColorBody: #333;
-@bgColorHtml: #ccc;
+
 @accentBgColor: #888;
 @accentFontColor: #fff;
-@bylineBorderColor: #888;
+
+@bgColorByline: @accentBgColor;
+@borderColorByline: darken(@accentBgColor, 10%);
+
 @bgColorCodeInline: #333;
 
 h1, h2, h3, h4 {

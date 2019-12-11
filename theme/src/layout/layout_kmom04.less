@@ -42,6 +42,9 @@
  * Header layout
  */
 .inner-wrap-header {
+    background-color: @bgColorHeader;
+    color: @colorHeader;
+
     .row {
         max-width: 100%; // overflow fix
     }
@@ -57,7 +60,7 @@
 }
 
 .rm-desktop ul {
-    background-color: @bgColorBody;
+    background-color: @bgColorHeader;
 }
 
 .site-logo {
@@ -92,6 +95,19 @@
 
     &.has-sidebar-left {
         #desinax-vgrid.push(1);
+
+        &.has-sidebar {
+            article {
+                p {
+                    // Used to set character limit per row - typography limit
+                    // The varibles are used for matching vgrid and number with 'px' is the multiplier.
+                    padding-right: (@columnWidth + @gutterWidth) * 5px + @columnWidth;
+                }
+                // p:last-child {
+                //     #desinax-vgrid.column(@columns - 1);
+                // }
+            }
+        }
     }
 
     // 3-column
@@ -116,6 +132,25 @@
     #desinax-vgrid.column(@columns * 1 / 4 - 1);
 }
 
+
+.breadcrumb-list {
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    li {
+        display: inline-flex;
+    	padding-left: @magicNumber;
+        // #desinax-vgrid.column(5);
+
+        &::after {
+            content: " > ";
+            padding-left: @magicNumber;
+        }
+    }
+}
+
 .next-previous {
     .next {
         float: right;
@@ -126,6 +161,17 @@
     }
 }
 
+.flashmessage.info {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.flashmessage-icon {
+	margin-top: @magicNumber;
+	margin-right: @magicNumber / 2;
+}
+
 
 
 /* Footer layout */
@@ -133,17 +179,6 @@
     background-color: @bgColorHtml;
     color: @colorFooter;
 }
-
-.inner-wrap {
-    &.inner-wrap-footer {
-        // max-width: 90%;
-    }
-}
-
-.inner-wrap-footer {
-    // padding: 30px 0;
-}
-
 
 .region-footer > .block {
     // padding-top: 30px;
@@ -165,18 +200,14 @@
  */
 
 .author-byline {
-    border: 2px solid @bylineBorderColor;
+    border: 2px solid @borderColorByline;
+    background-color: @bgColorByline;
 
     &::after {
         // Clearfix for border to show, needed height to get set.
         display: block;
         content: "";
         clear: both;
-    }
-
-    .right {
-        // float: right;
-        // margin-left: 10px;
     }
 
     .left {
@@ -195,6 +226,7 @@
 
 /* Page specific change */
 .route-,
+.route-om,
 .route-style,
 .route-test {
     .region-main {

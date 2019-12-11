@@ -78,7 +78,7 @@
 // @import "layout/layout.less";
 // @import "layout/layout_kmom02.less";
 // @import "layout/responsive.less";
-@import "layout/responsive_kmom03.less";
+@import "layout/responsive_kmom04.less";
 @import "layout/regions.less";     // To add style for ?regions
 
 
@@ -92,11 +92,18 @@
 @fontFamilyBody:     @fontFamilyVerdana; //"sans-serif";
 @fontFamilyCode:     @fontFamilyCourier; //"monospace";
 
+@colorHeader: @colorBody;
 @colorBody: #333;
 @colorFooter: #fff;
-@bgColorBody: #eff2eb;
+
 @bgColorHtml: #ab8735;
-@accentBgColor: #ccc;
+@bgColorHeader: @bgColorBody;
+@bgColorBody: #eff2eb;
+
+@accentBgColor: #888;
 @accentFontColor: #333;
-@bylineBorderColor: #888;
+
+@bgColorByline: @bgColorBody;
+@borderColorByline: darken(@accentBgColor, 10%);
+
 @bgColorCodeInline: #eee;
