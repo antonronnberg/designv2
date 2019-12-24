@@ -1,6 +1,10 @@
 Min me/redovisa
 ===
 
+v5.0.0 (2019-12-24)
+---
+* Included style and requirements for kmom05: blog, figure-style using Cimage, rapport.
+
 v4.0.1 (2019-12-11)
 ---
 * Updated responsivness for typography in rapport and redovisa, add some more accentColor to colorful theme.

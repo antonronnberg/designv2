@@ -1,0 +1,187 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+@media screen and (max-width: 1500px) {
+    .site-logo {
+        display: none;
+    }
+}
+
+
+
+/**
+ * Navbar responsive
+ */
+
+@media screen and (max-width: 1250px) {
+    .rm-desktop a {
+        padding: 1em 10px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .rm-desktop a {
+        padding: 1em 5px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .region-header-col-1,
+    .region-header-col-3 {
+        #desinax-vgrid.column(3);
+    }
+
+    .region-header-col-2 {
+        #desinax-vgrid.column(18);
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .rm-desktop {
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .breadcrumb-list {
+        li {
+            display: block;
+        }
+    }
+}
+
+/**
+ * Responsive 1, 2, 3 column
+ */
+
+@media screen and (max-width: 1000px) {
+    // 1-column
+    .region-main {
+        #desinax-vgrid.column(@columns * 3 / 4);
+        #desinax-vgrid.push(1);
+
+        // 2-column
+        &.has-sidebar-left,
+        &.has-sidebar-right {
+            #desinax-vgrid.column(@columns - 2);
+            #desinax-vgrid.push(1);
+
+            &.has-sidebar {
+                .article {
+                    // h1, h2, h3, h4, h5 {
+                    //     text-align: center;
+                    // }
+                    p {
+                        padding-right: (@columnWidth + @gutterWidth) * 9px + @columnWidth;
+                        // padding-left: ((@columnWidth + @gutterWidth) * 9px + @columnWidth) / 2;
+                        // padding-right: ((@columnWidth + @gutterWidth) * 9px + @columnWidth) / 2;
+                    }
+                    figcaption {
+                        p {
+                            padding-right: unset;
+                        }
+                    }
+                }
+            }
+        }
+
+        // 3-column
+        &.has-sidebar-left.has-sidebar-right {
+            #desinax-vgrid.column(@columns);
+        }
+    }
+
+    // 2 column
+    .region-sidebar-left {
+        #desinax-vgrid.column(@columns);
+    }
+
+    // 3-column
+    .region-sidebar-left.has-sidebar-right,
+    .region-sidebar-right.has-sidebar-left {
+        #desinax-vgrid.column(@columns);
+    }
+
+    .footer-column {
+        #desinax-vgrid.column(@columns);
+    }
+}
+
+@media screen and (max-width: 850px) {
+    // 2-column
+    .region-main {
+        // &.has-sidebar-right {
+        //     #desinax-vgrid.column(@columns);
+        // }
+
+        &.has-sidebar-left,
+        &.has-sidebar-right {
+            &.has-sidebar {
+                .article {
+                    p {
+                        padding-right: (@columnWidth + @gutterWidth) * 5px + @columnWidth;
+                        // padding-left: ((@columnWidth + @gutterWidth) * 5px + @columnWidth) / 2;
+                        // padding-right: ((@columnWidth + @gutterWidth) * 5px + @columnWidth) / 2;
+                    }
+                    figcaption {
+                        p {
+                            padding-right: unset;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // 2-column
+    .region-sidebar-right {
+        #desinax-vgrid.column(@columns);
+        #desinax-vgrid.push(0);
+    }
+}
+
+
+
+@media screen and (max-width: 650px) {
+    // 2-column
+    .region-main {
+        &.has-sidebar-left,
+        &.has-sidebar-right {
+            &.has-sidebar {
+                .article {
+                    p {
+                        padding-right: (@columnWidth + @gutterWidth) * 2px + @columnWidth;
+                        // padding-left: ((@columnWidth + @gutterWidth) * 2px + @columnWidth) / 2;
+                        // padding-right: ((@columnWidth + @gutterWidth) * 2px + @columnWidth) / 2;
+                    }
+                    figcaption {
+                        p {
+                            padding-right: unset;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+    // 2-column
+    .region-main {
+        &.has-sidebar-left {
+            &.has-sidebar {
+                article {
+                    p {
+                        padding-right: 0;
+                        // padding-left: unset;
+                    }
+                }
+            }
+        }
+    }
+}
